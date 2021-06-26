@@ -1,0 +1,36 @@
+{
+  "name": "studomat-backup",
+  "version": "1.0.0",
+  "description": "Tool to backup studomat data",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branc116/studomat-backup.git"
+  },
+  "keywords": [
+    "studomat",
+    "backup"
+  ],
+  "author": "Branimir Ričko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branc116/studomat-backup/issues"
+  },
+  "homepage": "https://github.com/branc116/studomat-backup#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jsdom": "^16.6.0",
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@types/jsdom": "^16.2.12",
+    "@types/node-fetch": "^2.5.10",
+    "ts-node": "^10.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  }
+}
